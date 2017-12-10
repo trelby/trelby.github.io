@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>FAQ</title>
+  <meta name="description" content="The free, multiplatform, feature-rich screenwriting program!">
+  
+  <link rel="icon" type="image/x-icon"  href="favicon.ico">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://www.trelby.org/faq/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Trelby" href="http://www.trelby.org/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="trelby">
+  <meta name="twitter:title" content="FAQ">
+  <meta name="twitter:description" content="The free, multiplatform, feature-rich screenwriting program!">
+  
+    <meta name="twitter:creator" content="trelby">
+  
+  
+
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Bitter:400,700,400italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper" style="text-align:center">
+
+    <img src="/assets/logo32.png"/><a class="site-title" style="float:none;" href="/">&nbsp;Trelby</a>
+    <p>The free, multiplatform, feature-rich screenwriting program!</p>
+
+    <nav class="site-nav" style="float:none;border-top: purple 1px solid;border-bottom: purple 1px solid;line-height: 33px;">
+      
+        
+        <a class="page-link" href="/">Home</a>
+      
+        
+        <a class="page-link" href="/screenshot/">Screenshots</a>
+      
+        
+        <a class="page-link" href="/download/">Download</a>
+      
+        
+        <a class="page-link" href="/changes/">Changes</a>
+      
+        
+        <a class="page-link" href="/contribute/">Contribute</a>
+      
+        
+        <a class="page-link" href="/blog/">Blog</a>
+      
+        
+        <a class="page-link" href="/assets/manual.html">Manual</a>
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">FAQ</h1>
+  </header>
+
+  <div class="post-content">
+    <p><strong>Q. What's a screenwriting program?</strong></p>
+<p>Movie screenplays and TV scripts are written using a certain <a href="http://www.scriptfrenzy.org/howtoformatascreenplay">formatting style</a>.</p>
+<p>Technically you could open up Notepad and write your film there, but you'd be tearing your hair apart sticking to the format. Screenwriting programs like Trelby understand these formatting guidelines and apply them automatically so you can focus on writing your script, not worrying about correct formatting.</p>
+<p><strong>Q. What do you mean free and multiplatform?</strong></p>
+<p>Trelby is completely free to use. If you are so inclined, you can even <a href="http://www.trelby.org/contribute">modify Trelby</a> to suit your needs as all of the code is available under the GPL free software license.</p>
+<p>Trelby currently runs on both Linux and Windows. Mac OS X support is possible, but needs someone to do it.</p>
+<p><strong>Q. What languages do you support?</strong></p>
+<p>This can mean two things: the language the program itself uses (menus, dialogs, etc.) and the language the user's screenplay is written in.</p>
+<p>The interface is English-only and will stay that way. We do not have the resources to provide translated versions of the program.</p>
+<p>Users can write scripts using all the characters in the <a href="http://en.wikipedia.org/wiki/ISO/IEC_8859-1">ISO-8859-1 (Latin-1)</a> character set. This covers most of the Western European languages (<em>English, French, German, Italian, Finnish</em>, etc.). Sadly, currently the program does not support writing scripts in languages that need characters from outside Latin-1, for technical reasons described in <a href="https://github.com/oskusalerma/trelby/issues/85">ticket 85</a>.  Those technical problems would have to be solved before we can start supporting other languages.</p>
+<p><strong id="import">Q. Can Trelby import from another screenwriting program <em>X</em>?</strong></p>
+<p>If Trelby cannot import from a particular format by default, chances are you can still import it.</p>
+<p>Any good screenwriting software can export as "formatted text". Just do this, and import this file into Trelby, which will intelligently parse all the lines, and the screenplay should be able to make in in largely intact.</p>
+<p><strong>Q. Why doesn't Trelby have feature XYZ?</strong></p>
+<p>We're only a few developers working on Trelby in our spare time, so our resources are limited.</p>
+<p>Examples of things that will probably never be implemented in Trelby:</p>
+<ul>
+<li>Dual dialogue.</li>
+<li>Production features such as page/scene locking, colored revisions, etc.</li>
+</ul>
+<p>If you need such features, you should use the commercial programs. The companies behind them have the resources to implement and maintain such features, we don't.</p>
+<p><strong id="Mac">Q. When will Mac be a supported platform?</strong></p>
+<p>When a Mac develper helps port to the platform. Neither of the current developers use a Mac, and hence cannot port to it.</p>
+<p>This is by far the most requested enhancement, so if you're a python developer on Mac, we could use your help. Development details are on the <a href="http://www.trelby.org/contribute">contribute</a> page.</p>
+<p><em>[Update : We now have an alpha port to Mac in the works on the <a href="http://groups.google.com/group/trelby/browse_thread/thread/d16ecde9f0132dd9">mailing list</a>. Here's a <a href="http://dl.dropbox.com/u/15521212/trelby-mac.png">screenshot</a>.]</em></p>
+<p><strong>Q. What do I do if I get the error: "Error loading file, file is not a trelby screenplay."</strong></p>
+<p>This error occurs because of possible corruption in the filesystem, or due to malware editing some files, or a disk error.</p>
+<p>Usually, you can open the Trelby file in text editing programs like Notepad, Wordpad, Gedit,etc, and you should be able see the contents of the file (because Trelby file-format is simple, and easily parsable).</p>
+<p>And as a good policy you should regularly backup all your files to another location (like a separate drive, to a cloud platform, etc).</p>
+<p><strong id="Fork">Q. How can I fork Trelby?</strong></p>
+<p>Trelby is licensed under the free and open source GPL2 license.</p>
+<p>As an open source project we would much rather have you contribute code directly into the main Trelby branch, according to a <a href="https://github.com/oskusalerma/trelby/wiki/Contributing">set of guidelines</a> you have to follow. Following these guidelines helps us maintain Trelby over a long time -- the current Trelby codebase is close to 10 years old, and spans over 20000 lines of code.</p>
+<p>We maintain a strict level of quality in the code that is integrated, and new submissions usually require a round of review before making it in.</p>
+<p>The name "Trelby" itself is used for the official project, and any official releases are made on this website. Should you choose to fork Trelby, you would also need to use a different name, and setup a different website/repository/community for your project.</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy; Trelby developers. Subscribe via <a href="http://www.trelby.org/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
